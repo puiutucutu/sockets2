@@ -1,0 +1,12 @@
+html {
+  /*font-size: 1vw; !* equivalent to 16px when the viewport is 1600px *!*/
+}
+
+img {
+  max-height: 36.5vw !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}

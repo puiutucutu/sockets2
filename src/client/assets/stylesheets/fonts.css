@@ -1,0 +1,95 @@
+/* ---------------------------------------------------------------------------*/
+/* Font Size */
+/* ---------------------------------------------------------------------------*/
+
+/* using 1.382 scale at https://type-scale.com/ */
+/* see https://tachyons.io/docs/typography/scale/ */
+.f-title { font-size: 6.967rem; }
+.f-heading { font-size: 2.64rem; }
+.f-text { font-size: 1.91rem; }
+.f-subheading { font-size: 1.382rem; }
+
+/* ---------------------------------------------------------------------------*/
+/* Font Families */
+/* ---------------------------------------------------------------------------*/
+
+.roboto { font-family: "Roboto-Regular", sans-serif; }
+.robotoMedium { font-family: "Roboto-Medium", sans-serif; }
+.robotoBold { font-family: "Roboto-Bold", sans-serif; }
+.robotoSlab { font-family: "RobotoSlab-Regular", serif; }
+.robotoSlabBold { font-family: "RobotoSlab-Bold", serif; }
+.sourceSansPro { font-family: "SourceSansPro-Regular", sans-serif; }
+.sourceSansProBold { font-family: "SourceSansPro-Bold", sans-serif; }
+.firaSans { font-family: "FiraSans-Regular", sans-serif; }
+.firaSansMedium { font-family: "FiraSans-Medium", sans-serif; }
+.firaSansBold { font-family: "FiraSans-Bold", sans-serif; }
+
+/* ---------------------------------------------------------------------------*/
+/* Roboto */
+/* ---------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../../assets/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* Roboto Slab */
+/* ---------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: "RobotoSlab-Regular";
+  src: url("../../assets/fonts/Roboto Slab/RobotoSlab-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "RobotoSlab-Bold";
+  src: url("../../assets/fonts/Roboto Slab/RobotoSlab-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* Source Sans Pro */
+/* ---------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url("../../assets/fonts/Source Sans Pro/SourceSansPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SourceSansPro-Bold";
+  src: url("../../assets/fonts/Source Sans Pro/SourceSansPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* Fira Sans */
+/* ---------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: "FiraSans-Regular";
+  src: url("../../assets/fonts/Fira Sans/FiraSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "FiraSans-Medium";
+  src: url("../../assets/fonts/Fira Sans/FiraSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "FiraSans-Bold";
+  src: url("../../assets/fonts/Fira Sans/FiraSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
